@@ -17,9 +17,13 @@ def search():
     return 'Search page'
 
 
-@app.route('/about/')
-def about():
-    return 'About page'
+@app.route('/result/')
+def result():
+    return 'There will be result'
+
+@app.route('/request/')
+def request():
+    return 'This is request page'
 
 
 if __name__ == '__main__':
