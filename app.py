@@ -14,7 +14,7 @@ def index():
 
 @app.route('/search/')
 def search():
-    return 'Search page'
+    return render_template('search.html')
 
 
 @app.route('/result/')
